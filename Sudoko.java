@@ -1,4 +1,5 @@
-//Backtracking Concept
+//Backtracking Concept and we use a function to check whether the number is safe at that 
+//position or not by checking in its col,row and in its 3X3 grid 
 class Sudoko {
    public boolean isSafe(char[][] board, int row, int col, int number) {
        //column
